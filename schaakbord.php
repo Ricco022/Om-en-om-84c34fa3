@@ -11,7 +11,7 @@
             height: 50px;
         }
 
-        .jackie {
+        .black {
             background-color: black;
         }
     </style>
@@ -28,7 +28,7 @@
                         echo('<tr>');
                             for ($j=0; $j < $collums; $j++) { 
                                 if($j%2 === 0){
-                                    echo('<td class="jackie"></td>');
+                                    echo('<td class="black"></td>');
                                 } else {
                                     echo('<td></td>');
                                 }
@@ -38,7 +38,7 @@
                         echo('<tr>');
                             for ($j=0; $j < $collums; $j++) { 
                                 if($j%2 === 1){
-                                    echo('<td class="jackie"></td>');
+                                    echo('<td class="black"></td>');
                                 } else {
                                     echo('<td></td>');
                                 }
